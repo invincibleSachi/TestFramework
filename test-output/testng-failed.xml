@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [SAP Conv AI Automation Tests Suite]" parallel="methods">
+  <test thread-count="4" name="SAP Conv AI Tests(failed)" parallel="methods">
+    <classes>
+      <class name="com.sap.convai.test.SampleTest">
+        <methods>
+          <include name="register" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTestGlobal"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- com.sap.convai.test.SampleTest -->
+    </classes>
+  </test> <!-- SAP Conv AI Tests(failed) -->
+</suite> <!-- Failed suite [SAP Conv AI Automation Tests Suite] -->

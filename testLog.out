@@ -1,0 +1,29 @@
+2020-09-04 13:55:35 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //div[@class='btn btn-primary sap-btn sap-btn-action signup link--silent']
+2020-09-04 13:55:36 INFO  ui.Selenium.switchToFrame(Selenium.java:273) - frame  navigation through id //iframe[contains(@src,'accounts.sap.com')]
+2020-09-04 13:55:36 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Sachchida in input field.
+2020-09-04 13:55:38 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Singh in input field.
+2020-09-04 13:55:40 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type test@test.com in input field.
+2020-09-04 13:55:42 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Abc@Sap123 in input field.
+2020-09-04 13:55:43 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Abc@Sap123 in input field.
+2020-09-04 13:55:46 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //input[@name='pdAccept']
+2020-09-04 13:55:47 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //input[@name='touAccept']
+2020-09-04 13:55:48 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //button[@id='sapStoreRegisterFormSubmit']
+2020-09-04 13:56:21 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //div[@class='btn btn-primary sap-btn sap-btn-action signup link--silent']
+2020-09-04 13:56:22 INFO  ui.Selenium.switchToFrame(Selenium.java:273) - frame  navigation through id //iframe[contains(@src,'accounts.sap.com')]
+2020-09-04 13:56:22 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Sachchida in input field.
+2020-09-04 13:56:25 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Singh in input field.
+2020-09-04 13:56:27 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type test2@test.com in input field.
+2020-09-04 13:56:28 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type A@B#$c0(1 in input field.
+2020-09-04 13:56:30 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type otherPassword@345 in input field.
+2020-09-04 13:56:32 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //input[@name='pdAccept']
+2020-09-04 13:56:33 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //input[@name='touAccept']
+2020-09-04 13:56:34 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //button[@id='sapStoreRegisterFormSubmit']
+2020-09-04 13:57:07 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //div[@class='btn btn-primary sap-btn sap-btn-action signup link--silent']
+2020-09-04 13:57:08 INFO  ui.Selenium.switchToFrame(Selenium.java:273) - frame  navigation through id //iframe[contains(@src,'accounts.sap.com')]
+2020-09-04 13:57:08 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Sachchida in input field.
+2020-09-04 13:57:11 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type Singh in input field.
+2020-09-04 13:57:13 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type A@B#$c0(1 in input field.
+2020-09-04 13:57:14 INFO  ui.Selenium.sendKeys(Selenium.java:198) - type A@B#$c0(1 in input field.
+2020-09-04 13:57:17 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //input[@name='pdAccept']
+2020-09-04 13:57:18 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //input[@name='touAccept']
+2020-09-04 13:57:19 INFO  ui.Selenium.click(Selenium.java:215) - clicked on webelement //button[@id='sapStoreRegisterFormSubmit']

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite">
+              <span class="suite-name border-failed">SAP Conv AI Automation Tests Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SAP_Conv_AI_Automation_Tests_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SAP_Conv_AI_Automation_Tests_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SAP_Conv_AI_Automation_Tests_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SAP_Conv_AI_Automation_Tests_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SAP_Conv_AI_Automation_Tests_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SAP_Conv_AI_Automation_Tests_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SAP_Conv_AI_Automation_Tests_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" class="hide-methods failed suite-SAP_Conv_AI_Automation_Tests_Suite"> (hide)</a> <!-- hide-methods failed suite-SAP_Conv_AI_Automation_Tests_Suite -->
+                      <a href="#" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" class="show-methods failed suite-SAP_Conv_AI_Automation_Tests_Suite"> (show)</a> <!-- show-methods failed suite-SAP_Conv_AI_Automation_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-SAP_Conv_AI_Automation_Tests_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" title="com.sap.convai.test.SampleTest" hash-for-method="register(Valid Case, pojo.UserRegisterationData@62c2df88)">register(Valid Case, pojo.UserRegisterationData@62c2df88)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SAP_Conv_AI_Automation_Tests_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" class="hide-methods passed suite-SAP_Conv_AI_Automation_Tests_Suite"> (hide)</a> <!-- hide-methods passed suite-SAP_Conv_AI_Automation_Tests_Suite -->
+                      <a href="#" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" class="show-methods passed suite-SAP_Conv_AI_Automation_Tests_Suite"> (show)</a> <!-- show-methods passed suite-SAP_Conv_AI_Automation_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SAP_Conv_AI_Automation_Tests_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" title="com.sap.convai.test.SampleTest" hash-for-method="register(Email Missing, pojo.UserRegisterationData@2338b5b)">register(Email Missing, pojo.UserRegisterationData@2338b5b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" title="com.sap.convai.test.SampleTest" hash-for-method="register(Password doesn’t match, pojo.UserRegisterationData@490c6e55)">register(Password doesn’t match, pojo.UserRegisterationData@490c6e55)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SAP_Conv_AI_Automation_Tests_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SAP_Conv_AI_Automation_Tests_Suite" class="panel SAP_Conv_AI_Automation_Tests_Suite">
+          <div class="suite-SAP_Conv_AI_Automation_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sap.convai.test.SampleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(Valid Case, pojo.UserRegisterationData@62c2df88)">
+                  </a> <!-- register(Valid Case, pojo.UserRegisterationData@62c2df88) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(Valid Case, pojo.UserRegisterationData@62c2df88)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected and actual registration status match expected [false] but found [true]
+	at com.sap.convai.test.SampleTest.register(SampleTest.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Register into Conversational AI Platform)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SAP_Conv_AI_Automation_Tests_Suite-class-failed -->
+          <div class="suite-SAP_Conv_AI_Automation_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sap.convai.test.SampleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(Email Missing, pojo.UserRegisterationData@2338b5b)">
+                  </a> <!-- register(Email Missing, pojo.UserRegisterationData@2338b5b) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(Email Missing, pojo.UserRegisterationData@2338b5b)</span>
+                  <em>
+(Register into Conversational AI Platform)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(Password doesn’t match, pojo.UserRegisterationData@490c6e55)">
+                  </a> <!-- register(Password doesn’t match, pojo.UserRegisterationData@490c6e55) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(Password doesn’t match, pojo.UserRegisterationData@490c6e55)</span>
+                  <em>
+(Register into Conversational AI Platform)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SAP_Conv_AI_Automation_Tests_Suite-class-passed -->
+        </div> <!-- panel SAP_Conv_AI_Automation_Tests_Suite -->
+        <div panel-name="test-xml-SAP_Conv_AI_Automation_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/i356181/Personal/github/TestFramework/src/test/resources/tests/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SAP Conv AI Automation Tests Suite&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;SAP Conv AI Tests&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sap.convai.test.SampleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SAP Conv AI Tests --&gt;
+&lt;/suite&gt; &lt;!-- SAP Conv AI Automation Tests Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SAP_Conv_AI_Automation_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SAP Conv AI Automation Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SAP Conv AI Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SAP_Conv_AI_Automation_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SAP Conv AI Automation Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SAP_Conv_AI_Automation_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SAP Conv AI Automation Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SAP_Conv_AI_Automation_Tests_Suite');
+function tableData_SAP_Conv_AI_Automation_Tests_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'register')
+data.setCell(0, 2, 'com.sap.convai.test.SampleTest')
+data.setCell(0, 3, 46603);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'register')
+data.setCell(1, 2, 'com.sap.convai.test.SampleTest')
+data.setCell(1, 3, 45437);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'register')
+data.setCell(2, 2, 'com.sap.convai.test.SampleTest')
+data.setCell(2, 3, 44678);
+window.suiteTableData['SAP_Conv_AI_Automation_Tests_Suite']= { tableData: data, tableDiv: 'times-div-SAP_Conv_AI_Automation_Tests_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-SAP_Conv_AI_Automation_Tests_Suite">
+              </div> <!-- times-div-SAP_Conv_AI_Automation_Tests_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SAP_Conv_AI_Automation_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SAP Conv AI Automation Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SAP_Conv_AI_Automation_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SAP_Conv_AI_Automation_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sap.convai.test.SampleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeTestGlobal</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">register(Valid Case, pojo.UserRegisterationData@62c2df88)</span>
+                <span class="method-start">516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">45959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">register(Password doesn’t match, pojo.UserRegisterationData@490c6e55)</span>
+                <span class="method-start">45960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">92564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">register(Email Missing, pojo.UserRegisterationData@2338b5b)</span>
+                <span class="method-start">92565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">137245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">137523 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
