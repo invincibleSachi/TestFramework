@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="SAP Conv AI Automation Tests Suite" duration-ms="137237" started-at="2020-09-04T13:55:22 IST" finished-at="2020-09-04T13:57:39 IST">
+  <suite name="Default suite" duration-ms="54733" started-at="2020-09-07T08:10:34 IST" finished-at="2020-09-07T08:11:29 IST">
     <groups>
     </groups>
-    <test name="SAP Conv AI Tests" duration-ms="137237" started-at="2020-09-04T13:55:22 IST" finished-at="2020-09-04T13:57:39 IST">
+    <test name="Default test" duration-ms="54733" started-at="2020-09-07T08:10:34 IST" finished-at="2020-09-07T08:11:29 IST">
       <class name="com.sap.convai.test.SampleTest">
-        <test-method status="PASS" signature="beforeTestGlobal()[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="beforeTestGlobal" is-config="true" duration-ms="9" started-at="2020-09-04T13:55:22 IST" finished-at="2020-09-04T13:55:22 IST">
+        <test-method status="PASS" signature="beforeTestGlobal()[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="beforeTestGlobal" is-config="true" duration-ms="11" started-at="2020-09-07T08:10:34 IST" finished-at="2020-09-07T08:10:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestGlobal -->
-        <test-method status="FAIL" signature="register(java.lang.String, pojo.UserRegisterationData)[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="register" duration-ms="45437" started-at="2020-09-04T13:55:22 IST" description="Register into Conversational AI Platform" data-provider="userRegData" finished-at="2020-09-04T13:56:08 IST">
+        <test-method status="FAIL" signature="register(java.lang.String, pojo.UserRegisterationData)[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="register" duration-ms="22874" started-at="2020-09-07T08:10:35 IST" description="Register into Conversational AI Platform" data-provider="userRegData" finished-at="2020-09-07T08:10:57 IST">
           <params>
             <param index="0">
               <value>
@@ -20,7 +20,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pojo.UserRegisterationData@62c2df88]]>
+                <![CDATA[pojo.UserRegisterationData@32115b28]]>
               </value>
             </param>
           </params>
@@ -48,20 +48,33 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="cleanup" is-config="true" duration-ms="0" started-at="2020-09-04T13:56:08 IST" finished-at="2020-09-04T13:56:08 IST">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="cleanup" is-config="true" duration-ms="0" started-at="2020-09-07T08:10:57 IST" finished-at="2020-09-07T08:10:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method status="PASS" signature="register(java.lang.String, pojo.UserRegisterationData)[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="register" duration-ms="46603" started-at="2020-09-04T13:56:08 IST" description="Register into Conversational AI Platform" data-provider="userRegData" finished-at="2020-09-04T13:56:55 IST">
+        <test-method status="PASS" signature="register(java.lang.String, pojo.UserRegisterationData)[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="register" duration-ms="14659" started-at="2020-09-07T08:10:57 IST" description="Register into Conversational AI Platform" data-provider="userRegData" finished-at="2020-09-07T08:11:12 IST">
           <params>
             <param index="0">
               <value>
@@ -70,18 +83,14 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[pojo.UserRegisterationData@490c6e55]]>
+                <![CDATA[pojo.UserRegisterationData@7ca0863b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="cleanup" is-config="true" duration-ms="1" started-at="2020-09-04T13:56:55 IST" finished-at="2020-09-04T13:56:55 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanup -->
-        <test-method status="PASS" signature="register(java.lang.String, pojo.UserRegisterationData)[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="register" duration-ms="44678" started-at="2020-09-04T13:56:55 IST" description="Register into Conversational AI Platform" data-provider="userRegData" finished-at="2020-09-04T13:57:39 IST">
+        <test-method status="PASS" signature="register(java.lang.String, pojo.UserRegisterationData)[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="register" duration-ms="16478" started-at="2020-09-07T08:11:12 IST" description="Register into Conversational AI Platform" data-provider="userRegData" finished-at="2020-09-07T08:11:29 IST">
           <params>
             <param index="0">
               <value>
@@ -90,22 +99,26 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[pojo.UserRegisterationData@2338b5b]]>
+                <![CDATA[pojo.UserRegisterationData@20ab3e3a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="cleanup" is-config="true" duration-ms="0" started-at="2020-09-04T13:57:39 IST" finished-at="2020-09-04T13:57:39 IST">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="cleanup" is-config="true" duration-ms="0" started-at="2020-09-07T08:11:12 IST" finished-at="2020-09-07T08:11:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sap.convai.test.SampleTest@473b46c3]" name="afterTest" is-config="true" duration-ms="217" started-at="2020-09-04T13:57:39 IST" finished-at="2020-09-04T13:57:40 IST">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="cleanup" is-config="true" duration-ms="0" started-at="2020-09-07T08:11:29 IST" finished-at="2020-09-07T08:11:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sap.convai.test.SampleTest@19dc67c2]" name="afterTest" is-config="true" duration-ms="260" started-at="2020-09-07T08:11:29 IST" finished-at="2020-09-07T08:11:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.sap.convai.test.SampleTest -->
-    </test> <!-- SAP Conv AI Tests -->
-  </suite> <!-- SAP Conv AI Automation Tests Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
